@@ -35,11 +35,11 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyle.headingMd}>
-        <p>私はフロントエンドエンジニアです。<br />今後はWEBアプリケーションの開発に関わりたいと思います。</p>
+        <p>私はNextjsエンジニアです。<br />好きなフレームワークはNext.jsです。</p>
       </section>
 
       <section>
-        <h2  className={utilStyle.headingMd}>📝エンジニアのブログ</h2>
+        <h2  className={utilStyle.headingMd}>📝Next.js エンジニアのブログ</h2>
         <div className={styles.grid}>
           {allPostsData.map(({ id, title, date, thumbnail }) => (
             <article key={id}>

@@ -34,3 +34,9 @@
   margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
+
+@media screen and (max-width: 480px) {
+  .grid {
+    grid-template-columns: none;
+  }
+}
